@@ -1,0 +1,10 @@
+male(ali).
+male(amr).
+female(rana).
+female(fatma).
+parent(ali,amr).
+parent(ali,rana).
+parent(fatma,amr).
+parent(fatma,rana).
+mother(X,Y):-female(X),parent(X,Y).
+

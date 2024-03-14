@@ -1,0 +1,4 @@
+father(ahmed,ali).
+father(ali,rana).
+father(ahmed,mona).
+run:-father(X,Y),write(X," is the father of ",Y),nl.
