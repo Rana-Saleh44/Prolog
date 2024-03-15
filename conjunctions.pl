@@ -4,3 +4,6 @@ likes(mary,burger).
 likes(john,wine).
 likes(john,mary).
 likes(john,burger).
+likes(john,X):-likes(X,wine).
+likes(john,X):-person(X).
+is_bird(X):-animal(X),feathers(X).
