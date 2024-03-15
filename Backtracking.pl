@@ -6,5 +6,5 @@ boy(harry).
 girl(alisa).
 girl(maya).
 
-is_integer(0).
+is_integer(0).% this is the stopping cond.
 is_integer(X):- is_integer(Y), X is Y+1.
