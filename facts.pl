@@ -7,3 +7,4 @@ parent(ali,rana).
 parent(fatma,amr).
 parent(fatma,rana).
 mother(X,Y):-female(X),parent(X,Y).
+father(X,Y):-male(X),parent(X,Y).
